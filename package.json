@@ -2,7 +2,7 @@
   "name": "crdiff",
   "displayName": "CrDiff",
   "description": "A simple tools for Chromium development.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Gizeta",
 	"repository": "https://github.com/Gizeta/vscode-crdiff",
   "engines": {

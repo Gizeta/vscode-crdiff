@@ -26,6 +26,10 @@
       {
         "command": "crdiff.openInSystemBrowser",
         "title": "CrDiff: show current file in system browser"
+      },
+      {
+        "command": "crdiff.search",
+        "title": "CrDiff: search in Google CodeSearch"
       }
     ],
     "configuration": {
@@ -38,6 +42,23 @@
           "description": "branch name used in Chromium repo"
         }
       }
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "crdiff-search",
+          "title": "CrDiff: Search",
+          "icon": "resources/panel.svg"
+        }
+      ]
+    },
+    "views": {
+      "crdiff-search": [
+        {
+          "id": "crdiff-search-result",
+          "name": "Results"
+        }
+      ]
     }
   },
   "scripts": {
